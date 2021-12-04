@@ -13,11 +13,11 @@
 
 // Exercise 1. Simply declare a variable named 'emptyVariable'
 
-  let emptyVariable = "";
+  let emptyVariable;
   
 // Exercise 2. Declare a variable called 'myName'
 
- let myName = "";
+ let myName;
  
 // Exercise 3. Assign your name as the value for 'myName'
 
@@ -69,7 +69,7 @@
 
 let myName = "Adaora";
 let dreamDestination = "Chiang Mai";
-let statement = "Hi, my name is " + myName + " and I can't wait to visit " + dreamDestination + "!";
+let statement = "Hi, my name is " + myName + " and I can\'t wait to visit " + dreamDestination + "!";
 console.log(statement);
 
 // *NOTE* For the following exercises, put your answers in the line below
@@ -91,7 +91,7 @@ const myAnswerForExercise11 = "number";
 // Exercise 12. What do you think the value of emptyVariable is?
 // Place your answer below:
 
-const myAnswerForExercise12 = "string";
+const myAnswerForExercise12 = "undefined";
 
 // Exercise 13. If
 const A = "R";
