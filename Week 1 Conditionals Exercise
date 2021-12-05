@@ -292,12 +292,13 @@ function exercise10(num10) {
        answer10 = "Fizz Buzz";
     } else {
       answer10 = num10;
+    }  
   // --------------------------------------------
   // And above here
   // --------------------------------------------
   return answer10;
  }
-}
+
 // Congrats, you made it to the end! You rock!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
