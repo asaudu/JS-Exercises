@@ -12,21 +12,21 @@
 // Exercise 1. Write a 'while' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
-let i = 1
-while (i <= 5) {
- console.log(i);
- i++;
+let a = 1
+while (a <= 5) {
+ console.log(a);
+ a++;
 };
 
 // Exercise 2. Write a 'do while' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
-let i = 0;
+let b = 0;
 do {
- i = i + 1;
- console.log(i);
+ b = b + 1;
+ console.log(b);
  } 
-while (i < 5);
+while (b < 5);
 
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
@@ -39,41 +39,41 @@ for (let x = 1; x <= 5; x++) {
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
-let i = 10;
-while (i >= 1) {
-console.log(i);
-i--;
+let c = 10;
+while (c >= 1) {
+console.log(c);
+c--;
 };
 
-let i = 11;
+let d = 11;
 do {
- i = i - 1;
- console.log(i);
+ d = d - 1;
+ console.log(d);
  } 
-while (i > 1);
+while (d > 1);
 
-for (let i = 10; i >= 1; i--) {
-  console.log(i);
+for (let e = 10; e >= 1; e--) {
+  console.log(e);
 };
 
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
-let i = 7
-while (i < 28) {
- console.log(i);
- i++;
+let f = 7
+while (f < 28) {
+ console.log(f);
+ f++;
  };
  
- let i = 6;
+ let g = 6;
  do {
-   i++;
-   console.log(i);
+   g++;
+   console.log(g);
    }
-  while (i < 27);
+  while (g < 27);
    
-  for (let i = 7; i < 28; i++) {
-     console.log(i);
+  for (let h = 7; h < 28; h++) {
+     console.log(h);
    }; 
    
    
@@ -88,28 +88,29 @@ while (i < 100) {
  i += 10;
 };
 
-let i = 0;
+let j = 0;
 do {
- i += 10;
- console.log(i);
+ j += 10;
+ console.log(j);
  }
- while (i < 100);
+ while (j < 100);
 
-for (let i = 10; i <= 100; i = i + 10) {
-     console.log(i);
+for (let k = 10; k <= 100; k = k + 10) {
+     console.log(k);
    };
 
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
 
-// The loop is infinite because the condition will never be met. -100 can never be reached since 1 is already less than 2.
+// The loop is infinite because the condition will never be met. -100 can never be reached since 1 is already less than 2 and the console will keep printing the string
+//instead of the variable that is actually running in the loop. In a way it has broken the chain because it is calling something that isn't really apart of it.
 
-let counterFour = 1;
-while (counterFour < 2) {
-  console.log("HELP ME!");
-  counterFour--;
-}
+//let counterFour = 1;
+//while (counterFour < 2) {
+//  console.log("HELP ME!");
+//  counterFour--;
+//}
 
 let counterFour = 1;
 while (counterFour > -101) {
@@ -120,9 +121,9 @@ while (counterFour > -101) {
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop
 // (your choice which type) that prints the integers from 0 to that number.
 
-let myFaveNumber = 27;
-for (let a = 0; a <= 27; a++) {
-  console.log(a);
+let myFavNumber = 27;
+for (let l = 0; l <= 27; l++) {
+  console.log(l);
 };  
 
 // Exercise 9. Make a variable that contains your favorite integer (this time make sure it's
@@ -137,11 +138,11 @@ for (let a = 0; a <= 27; a++) {
 // (Hint - use an if statement in your loop)
 
 let myFaveNumber = 27;
-for (let a = 0; a <= 100; a++) {
-  if (a === 27) {
-    console.log(a + " my favorite number!")
+for (let m = 0; m <= 100; m++) {
+  if (m === 27) {
+    console.log(m + " my favorite number!")
   } else { 
-    console.log(a + " not my favorite number")
+    console.log(m + " not my favorite number")
   }
 };
  
