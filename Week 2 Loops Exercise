@@ -39,18 +39,18 @@ for (let x = 1; x <= 5; x++) {
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
-let c = 10;
-while (c >= 1) {
-console.log(c);
-c--;
+let countDownW = 10;
+while (countDownW >= 1) {
+console.log(countDownW);
+countDownW--;
 };
 
-let d = 11;
+let countDownD = 11;
 do {
- d = d - 1;
- console.log(d);
+ countDownD = countDownD - 1;
+ console.log(countDownD);
  } 
-while (d > 1);
+while (countDownD > 1);
 
 for (let e = 10; e >= 1; e--) {
   console.log(e);
@@ -59,10 +59,10 @@ for (let e = 10; e >= 1; e--) {
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
-let f = 7
-while (f < 28) {
- console.log(f);
- f++;
+let luckyNumber = 7
+while (luckyNumber < 28) {
+ console.log(luckyNumber);
+ luckyNumber++;
  };
  
  let g = 6;
@@ -72,8 +72,8 @@ while (f < 28) {
    }
   while (g < 27);
    
-  for (let h = 7; h < 28; h++) {
-     console.log(h);
+  for (let numberSeven = 7; numberSeven < 28; numberSeven++) {
+     console.log(numberSeven);
    }; 
    
    
@@ -88,15 +88,15 @@ while (i < 100) {
  i += 10;
 };
 
-let j = 0;
+let countingByTen = 0;
 do {
- j += 10;
- console.log(j);
+ countingByTen += 10;
+ console.log(countingByTen);
  }
- while (j < 100);
+ while (countingByTen < 100);
 
-for (let k = 10; k <= 100; k = k + 10) {
-     console.log(k);
+for (let kountingByTen = 10; kountingByTen <= 100; kountingByTen += 10) {
+     console.log(kountingByTen);
    };
 
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will
@@ -138,11 +138,11 @@ for (let l = 0; l <= 27; l++) {
 // (Hint - use an if statement in your loop)
 
 let myFaveNumber = 27;
-for (let m = 0; m <= 100; m++) {
-  if (m === 27) {
-    console.log(m + " my favorite number!")
+for (let myNumbers = 0; myNumbers <= 100; myNumbers++) {
+  if (myNumbers === 27) {
+    console.log(myNumbers + " my favorite number!")
   } else { 
-    console.log(m + " not my favorite number")
+    console.log(myNumbers + " not my favorite number")
   }
 };
  
