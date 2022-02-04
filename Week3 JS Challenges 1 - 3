@@ -1,0 +1,63 @@
+// Write a function below that accepts a number as the only argument.
+// The function should determine whether the number is divisible by 3,
+// and return either true or false.
+// Choose names that make the code easy to understand.
+//
+// Note:  None of the review # problems have tests included, but feel free to write your own.
+
+function divisibleByThree(num) {
+  if(num % 3 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+console.log(divisibleByThree(6));
+console.log(divisibleByThree(3));
+console.log(divisibleByThree(-15));
+console.log(divisibleByThree(22));
+
+// Write a function that takes a string as the argument.
+// The function should return a number that is the number of characters in the string.
+// Choose names that make the code easy to understand.
+
+function stringToNum(str) {
+  return str.length;
+};
+
+console.log(stringToNum("what"));
+console.log(stringToNum("so"));
+console.log(stringToNum(""));
+console.log(stringToNum("Adaora"));
+
+
+// 1. Create an array of numbers, (ex: [1, 2, 3])
+
+let arrOfNumbers = [1, 44, 27, 4, 3];
+
+// 2. Without using any math operators, write 5 statements:
+//   - Return the first item in the array (ex: 1)
+
+console.log(arrOfNumbers[0]);
+
+//   - Return the last item in the array (ex: 3)
+
+console.log(arrOfNumbers.slice(4));
+
+//   - Add a new item to the end of the array (ex: [1,2,3,4])
+
+arrOfNumbers.push(22);
+console.log(arrOfNumbers);
+
+//   - Add an array to the beginning of the array. (ex: [["a","b","c"],1,2,3,4])
+
+arrOfNumbers.unshift(["a", "d", "a"]);
+console.log(arrOfNumbers);
+//   - Return the first item from the first item in the array. (ex: "a")
+
+console.log(arrOfNumbers[0][0]);
+
+// Create a function that calculates how many minutes have elapsed from midnight until right now.
+// The function should still return an accurate answer,
+// even if you ran it a few minutes or hours later.
