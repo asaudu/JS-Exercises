@@ -44,6 +44,7 @@ console.log(arrOfNumbers[0]);
 //   - Return the last item in the array (ex: 3)
 
 console.log(arrOfNumbers.slice(4));
+// you can use slice with an especific index if you know the length of you array, but if you don't know the length of you array you should do something like `array.slice(-1)`
 
 //   - Add a new item to the end of the array (ex: [1,2,3,4])
 
